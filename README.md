@@ -4,8 +4,8 @@ This repository will contain the second assignment in the course Programming Sys
 
 In this assignment we (the students) were required to implement a squared matrix that we were taught in Linear Algebra course.
 I choose to implement this matrix using two properties:
-size(int) - the number of rows and column in the matrix.
-squareMatrix(double**) - represents the matrix by two arrays of double.
+1. size(int) - the number of rows and column in the matrix.
+2. squareMatrix(double**) - represents the matrix by two arrays of double.
 
 We were requested to:
 -
