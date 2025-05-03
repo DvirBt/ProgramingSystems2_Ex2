@@ -17,12 +17,12 @@ We were requested to:
 
 My project includes the following files under the namespace 'Mat':
 -
-SquareMat Class (hpp, cpp files) - mainly contains the properties of the squared matrix, the supported functions and operators signitures and the implementation of each function.
-Tests Class (cpp file) - contains all the tests using TEST_CASE_FIXTURE which offers an initial data members to work with.
-Main Class (cpp file) - conatins a few matrices and shows the uses of all the operators.
-Makefile - supports the rules Main - runs the main, test - runs the Tests, valgrind (checks for memory leak) and clean. Note: the 'make valgrind command' is being performed on the tests file.
+1. SquareMat Class (hpp, cpp files) - mainly contains the properties of the squared matrix, the supported functions and operators signitures and the implementation of each function.
+2. Tests Class (cpp file) - contains all the tests using TEST_CASE_FIXTURE which offers an initial data members to work with.
+3. Main Class (cpp file) - conatins a few matrices and shows the uses of all the operators.
+4. Makefile - supports the rules Main - runs the main, test - runs the Tests, valgrind (checks for memory leak) and clean. Note: the 'make valgrind command' is being performed on the tests file.
 
-Note: each class has has a description and each function is explained in terms of it's purpose, inputs, returns and throws (if such exists).
+Note: each class has has a description and each function is explained in terms of it's purpose, inputs*, returns* and throws* (* - if such exists).
 
 Information sources that I used:
 -
